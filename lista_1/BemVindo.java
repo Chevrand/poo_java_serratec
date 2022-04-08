@@ -16,6 +16,7 @@ public class BemVindo {
 		System.out.print("E o seu sobrenome? ");
 		sobrenome = scanner.next();
 		System.out.print("Olá, " + nome + " " + sobrenome + ". Seja bem vindo(a) ao universo da programação!");
+		scanner.close();
 		
 	}
 
