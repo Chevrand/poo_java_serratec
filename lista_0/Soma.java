@@ -7,6 +7,7 @@ public class Soma {
 	public static void main(String[] args) {
 		/*Lê dois números inteiros e exibe o
 		resultado da soma dos mesmos.*/
+		
 		int numero1, numero2, resultado;
 		Scanner leia = new Scanner(System.in);
 		
