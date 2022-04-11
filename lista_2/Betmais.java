@@ -34,6 +34,7 @@ public class Betmais {
 			}while(valor < 0 || valor > 10);		
 		}
 		
+		scanner.close();
 		System.out.println("\nO total da soma de números pares é: " + totalPar);
 		System.out.println("O total da subtração dos números ímpares é: " + totalImpar);
 	}
