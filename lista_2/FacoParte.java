@@ -8,11 +8,11 @@ public class FacoParte {
 		Mas os últimos Z anos contaram comigo!”.
 		Cada letra maiúscula do texto será uma variável, sendo que “x” e “z” são valores fixos, e “y” irá conter uma expressão.*/
 		
-		final int idadeTeresopolis = 130, idadeProgramador = 28;
-		int diferenca = idadeTeresopolis - idadeProgramador;
+		final int IDADE_TERESOPOLIS = 130, IDADE_PROGRAMADOR = 28;
+		int diferenca = IDADE_TERESOPOLIS - IDADE_PROGRAMADOR;
 		
 		System.out.print("*** Faço Parte ***\n\n");
-		System.out.println("Teresópolis tem " + idadeTeresopolis + " anos. Destes, " + diferenca + " foram antes de mim.\n");
-		System.out.println("Mas os últimos " + idadeProgramador + " anos contaram comigo!");
+		System.out.println("Teresópolis tem " + IDADE_TERESOPOLIS + " anos. Destes, " + diferenca + " foram antes de mim.\n");
+		System.out.println("Mas os últimos " + IDADE_PROGRAMADOR + " anos contaram comigo!");
 	}
 }
